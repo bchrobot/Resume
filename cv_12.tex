@@ -1,0 +1,379 @@
+%!TEX program = xelatex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Benjamin}{Chrobot}{ % Your name
+\urlstyle{same}\url{http://benjaminchrobot.com} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:bchrobot@mit.edu}{bchrobot@mit.edu} | 845.943.0872 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{MIT}
+
+\descript{BS in Electrical Engineering and Computer Science}
+\location{Expected Dec 2015 | Cambridge, MA}
+%Conc. in Software Engineering \\
+%College of Engineering \\
+\location{ Cum. GPA: 4.0 / 5.0 %\\
+% Major GPA: 3.94 / 4.0
+}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Kingston High School}
+
+\location{Grad. May 2011 | Kingston, NY}
+Graduated 4\textsuperscript{th} in class \\
+Varsity Cross Country Captain \\
+Varsity Indoor Track Captain \\
+% Treasurer of Student Body junior \& senior year \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/bchrobot}{\bf bchrobot} \\
+LinkedIn:// \href{https://www.linkedin.com/in/benjaminchrobot/}{\bf benjaminchrobot} \\
+% YouTube:// \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
+% Twitter:// \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
+% Quora:// \href{https://www.quora.com/Benjamin-Chrobot}{\bf Benjamin-Chrobot}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+% \subsection{Graduate}
+
+% Advanced Machine Learning \\
+% Open Source Software Engineering \\
+% Advanced Interactive Graphics \\
+% Compilers + Practicum \\
+% Cloud Computing
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Undergraduate}
+
+Computation Structures \\					% 6.004
+Computer Systems Security \\				% 6.858
+Design and Analysis of Algorithms \\		% 6.046
+Communicating with Mobile Technology \\		% 21W.789
+Digital Communication Systems \\			% 6.02
+Artificial Intelligence \\					% 6.034
+Computer System Engineering \\				% 6.033
+Circuits and Electronics \\					% 6.002
+Software Construction \\					% 6.005
+Intro to Algorithms \\						% 6.006
+Math For Computer Science \\				% 6.042
+% Intro to EECS \\							% 6.01
+%------------------------------------------------
+Music and Technology \\						% 21M.380
+Electronic Music Composition I \\			% 21M.361
+Toy Product Design 							% 2.00b
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Over 5000 lines:}
+Java \textbullet{}
+Android \textbullet{}
+JavaScript \textbullet{}
+HTML5 \textbullet{}
+CSS3 \textbullet{}
+PHP \textbullet{}
+\LaTeX\ \\
+%-------------------
+\location{Over 1000 lines:}
+MySQL \textbullet{}
+Python \textbullet{}
+Rails \\
+%-------------------
+\location{Familiar:}
+iOS \textbullet{}
+C \textbullet{}
+C++ \textbullet{}
+Assembly \\
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Software}
+\location{Operating Systems:}
+Mac \textbullet{}
+Linux \textbullet{}
+Windows \\
+%-------------------
+\location{Development Environments:}
+Sublime \textbullet{}
+Eclipse \textbullet{}
+Xcode \\
+%-------------------
+\location{Version Control:}
+Git \textbullet{}
+Perforce \\
+%-------------------
+\location{Multimedia:}
+Avid Pro Tools \textbullet{}
+Adobe Premiere Pro \textbullet{}
+Adobe Photoshop \textbullet{}
+Adober Flash \textbullet{}
+DS SolidWorks \\
+
+
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{MOTU}
+\descript{| Web Developer}
+
+\location{June 2013 – August 2013 | Cambridge, MA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Created multi-user synchronous Javascript web interface for network-enabled audio producion devices
+\item Built libraries for large scale DOM manipulation, SVG manipulation, gesture recognition, and event handling
+\item Overcame performance obstacles for desktop and resource-limited mobile devices
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Jebbit Inc}
+\descript{| Lead Android Developer}
+
+\location{October 2012 – May 2013 | Cambridge, MA}
+\begin{tightitemize}
+\item Authored design specifications for Jebbit ‘s web API and mobile application
+\item Wrote PHP/MySQL based mobile API used by the both Android and iOS mobile applications
+\item Built Android version of Jebbit Mobile
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Cary Institute for Ecosystem Studies}
+\descript{| Independent Contractor }
+
+\location{June 2011 – Present | Millbrook, NY \& Sunapee, NH }
+\begin{tightitemize}
+\item Built Android application in Eclipse development environment for collecting field data digitally
+\item Replicated this application for iOS in Xcode development environment
+\item Designed PHP/MySQL-driven remote database to sync field data with
+\item Built PHP and Ajax driven website for accessing and parsing data including administrative backend with quality-control features to regulate mobile data submissions
+
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{The Daydreamers Partnership}
+\descript{| Founder }
+
+\location{May 2011 – Present | Woodstock, NY \& New York, NY }
+\begin{tightitemize}
+\item Formed partnership with two other members of rock band The Daydreamers
+\item Engineered sound at producer Jerry Marotta’s studio using analog outboard equipment and Pro Tools 9 setup
+\item Co-directed and produced two 3-minute music videos using Adobe Premiere Pro
+
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Green Heron Farm}
+\descript{| Farm Hand }
+
+\location{June 2011 – Present | Saugerties, NY }
+\begin{tightitemize}
+\item Performed a variety of manual labor tasks
+\item Gained experience with many different power tools as well as heavy machinery such as a tractor, a backhoe, and oil truck
+
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Interests & Hobbies
+%------------------------------------------------
+
+\section{Interests \& Hobbies}
+
+\runsubsection{Long Distance Hiking}
+\descript{| Appalachian Trail}
+
+\location{Jan 2014 – Present | Ithaca, NY}
+Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Music Production}
+\descript{| Appalachian Trail}
+
+\location{Jan 2014 – Present | Ithaca, NY}
+Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+% \section{Research}
+
+% \runsubsection{Cornell Robot Learning Lab}
+% \descript{| Head Undergrad Research}
+
+% \location{Jan 2014 – Present | Ithaca, NY}
+% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+% \section{Awards} 
+
+% \begin{tabular}{rll}
+% 2014	 & top 52/2500 & KPCB Engineering Fellow\\
+% 2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
+% 2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
+% 2013	 & National & Jump Trading Challenge Finalist\\
+% 2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
+% 2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% 2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% 2010 & National & Comp. Soc. of India's National Programming Contest\\
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 & top 12\%ile & Tau Beta Pi Engineering Honor Society\\
+% 2014 & National & The Global Leadership and Education Forum (tGELF)\\
+% 2012 & National & Golden Key International Honor Society\\
+% 2012 & National & National Society of Collegiate Scholars\\
+% \end{tabular}
+
+% \sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
