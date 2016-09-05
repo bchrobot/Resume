@@ -1,0 +1,119 @@
+\documentclass{article}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=4ex}
+\pagenumbering{gobble}
+\usepackage[margin=0.5in]{geometry}
+\addtolength{\topmargin}{-0.2in}
+\textheight = 10.5in
+
+\newcommand{\lrc}[3]{%
+  \noindent%
+  \makebox[0pt][l]{#1}%
+  \hfill%
+  \makebox[0pt][c]{#2}%
+  \hfill%
+  \makebox[0pt][r]{#3}%
+}
+
+\renewcommand{\labelitemi}{-}
+
+\titleformat{\section}
+  {\normalfont\fontsize{12}{15}\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\titlespacing{\section}{0pt}{10pt}{5pt}
+
+\begin{document}
+
+\centerline{\bfseries\Huge Benjamin Chrobot}
+\medskip
+\lrc{\textbf{Current Address}}{}{\textbf{Home Address}} \\
+\lrc{233 Massachusetts Ave}{bchrobot@mit.edu}{659 Hurley Ave} \\
+\lrc{Cambridge, MA 02139}{(845) 943-0872}{Hurley, NY 12443}
+
+
+\section*{EDUCATION}
+\lrc{\textbf{Massachusetts Institute of Technology}}{}{Cambridge, MA} \\
+\lrc{\textit{\hspace{1ex}SB in Computer Science and Engineering}}{}{February 2016}
+\begin{itemize}
+\item \textbf{GPA:} 4.1/5.0
+\item \textbf{Relevant Coursework:}
+  Foundations of Information Policy,  % 6.805
+  Technology, Security and Conflict,  % IGA-236
+  Computer Systems Security           % 6.858
+  Design and Analysis of Algorithms,  % 6.046
+  Artificial Intelligence,            % 6.034
+  Digital Communication Systems,      % 6.02
+  and Computation Structures          % 6.004
+\end{itemize}
+
+
+\section*{WORK EXPERIENCE}
+
+\lrc{\textbf{Cary Institute of Ecosystem Studies}}{}{Millbrook, NY} \\
+\lrc{\hspace{1ex}\textit{Independent Contractor}}{}{June 2011 –- Present}
+\begin{itemize}
+\item Built Android application for easily collecting and monitoring water quality data
+\item Built web portal for querying data with quality control and administrative backend features using PHP framework Laravel
+\item Streamlined data collecton and analysis process for over 1000 volunteers servicing more than 500 lakes
+\end{itemize}
+\medskip
+
+\lrc{\textbf{Onshape}}{}{Alewife, MA} \\
+\lrc{\hspace{1ex}\textit{iOS and Android Developer}}{}{May 2015 -- April 2016}
+\begin{itemize}
+\item Rebuilt iOS ``share'' workflow halving the number of steps to invite new users
+\item Implemented iOS document comments using websockets for real-time updates 
+\item Created document element management interface for Android and iOS
+\end{itemize}
+\medskip
+
+\lrc{\textbf{MOTU}}{}{Cambridge, MA} \\
+\lrc{\hspace{1ex}\textit{Web Developer}}{}{June 2013 -- August 2013}
+\begin{itemize}
+\item Built performance-optimized Javascript libraries to handle DOM and SVG manipulation, gesture recognition, and event handling for large-scale web applications with more than 40,000 elements
+\item Created multi-user synchronous Javascript web application pioneering the use of 2013 AVB ethernet protocol to interface with network-enabled audio production devices
+\end{itemize}
+\medskip
+
+
+\section*{LEADERSHIP EXPERIENCE}
+
+\lrc{\textbf{The Daydreamers Partnership}}{}{New York, NY} \\
+\lrc{\hspace{1ex}\textit{Founder}}{}{May 2011 -- Present}
+\begin{itemize}
+\item Formed partnership with fellow members of indie rock band The Daydreamers
+\item Engineered sound for 2 studio albums using digital and analog outboard equipment on top of a Pro Tools 9 setup
+\item Co-directed and produced 2 3-minute indie music videos using Adobe Premiere Pro with over 13,000 Youtube views
+\end{itemize}
+\medskip
+
+\lrc{\textbf{Zeta Psi Fraternity}}{}{Cambridge, MA} \\
+\lrc{\hspace{1ex}\textit{President \& New Member Advisor}}{}{September 2012 -- February 2016}
+\begin{itemize}
+\item Advised 15 new members during 10 week mentorship program
+\item Managed \$10,000 renovation budget and directed untrained crew of 45 to complete 1,800 man-hours of structural and aesthetic building improvements
+\item Awarded MIT IFC Best New Member Program \& Zeta Psi International Headquarters McElroy Order of Excellence
+\end{itemize}
+
+\lrc{\textbf{Green Heron Farm}}{}{Saugerties, NY} \\
+\lrc{\hspace{1ex}\textit{Farm hand}}{}{June 2006 -- August 2008}
+\begin{itemize}
+\item Assisted in the daily care of 20 competition horses
+\item Achieved working proficiency with over 15 types of heavy machinery
+\end{itemize}
+
+\section*{SKILLS}
+\noindent\textbf{Programming (over 5000 lines):} Java, Android, Obj-C, JavaScript, HTML5, CSS3, PHP \\
+\textbf{Programming (over 1000 lines):} Python, Rails \\
+\textbf{Programming (familiar):} MySQL, C, C++, Assembly \\
+\textbf{Multimedia:} Avid Pro Tools, Adobe Premiere Pro, Onshape, DS SolidWorks
+
+
+\section*{ACTIVITIES AND INTERESTS}
+
+\lrc{\textbf{Long Distance Hiking}}{}{March 2014 -- Present} \\
+\hspace{1ex}-- Planned and executed a 5 month minimalist-backpacking trip from Georgia to Maine along the Appalachian Trail \\
+\hspace{1ex}-- Completed the 1700-mile California section of the Pacific Crest Trail
+
+
+\end{document}
