@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{hyperref} % Required for links
 \setlist[itemize]{noitemsep, topsep=0pt, leftmargin=4ex}
 \pagenumbering{gobble}
 \usepackage[margin=0.5in]{geometry}
@@ -35,7 +36,7 @@
 \lrc{\textbf{Massachusetts Institute of Technology}}{}{Cambridge, MA} \\
 \lrc{\textit{\hspace{1ex}SB in Computer Science and Engineering}}{}{February 2016}
 \begin{itemize}
-\item \textbf{GPA:} 4.1/5.0
+% \item \textbf{GPA:} 4.1/5.0
 \item \textbf{Relevant Coursework:}
   Foundations of Information Policy,  % 6.805
   Technology, Security and Conflict,  % IGA-236
@@ -49,63 +50,91 @@
 
 \section*{WORK EXPERIENCE}
 
-\lrc{\textbf{Cary Institute of Ecosystem Studies}}{}{Millbrook, NY} \\
-\lrc{\hspace{1ex}\textit{Independent Contractor}}{}{June 2011 –- Present}
+\lrc{\textbf{Weill Cornell Medicine}}{}{New York, NY} \\
+\lrc{\hspace{1ex}\textit{Software Developer}}{}{November 2017 -- May 2018}
 \begin{itemize}
-\item Built Android application for easily collecting and monitoring water quality data
-\item Built web portal for querying data with quality control and administrative backend features using PHP framework Laravel
-\item Streamlined data collecton and analysis process for over 1000 volunteers servicing more than 500 lakes
+  \item Designed and built MetaGenScope, a platform for metagenomic analysis and visualization, for the \href{http://masonlab.net}{\textbf{Mason Lab}}
+  \item Architected application as scalable set of containerized microservices
+  % \item Automated testing and deployment of each component microservice
 \end{itemize}
 \medskip
 
-\lrc{\textbf{Onshape}}{}{Alewife, MA} \\
-\lrc{\hspace{1ex}\textit{iOS and Android Developer}}{}{May 2015 -- April 2016}
+\lrc{\textbf{Treble Media, Inc.}}{}{Brooklyn, NY} \\
+\lrc{\hspace{1ex}\textit{Product Manager}}{}{October 2016 –- October 2017}
 \begin{itemize}
-\item Rebuilt iOS ``share'' workflow halving the number of steps to invite new users
-\item Implemented iOS document comments using websockets for real-time updates 
-\item Created document element management interface for Android and iOS
+  \item Lead research, design, and development of professional networking platform tailored for the music industry
+  \item Managed cross-functional team of 4 in two locations (Brooklyn and Chicago) and worked closely with business development and marketing
+  \item Created multi-platform product roadmap to capitalize on brick and mortar business partnership opportunities beyond the digital product
 \end{itemize}
 \medskip
+
+\lrc{\textbf{Cary Institute of Ecosystem Studies}}{}{Millbrook, NY} \\
+\lrc{\hspace{1ex}\textit{Independent Contractor}}{}{June 2011 –- April 2016}
+\begin{itemize}
+  \item Built backend API using the \textbf{\href{https://laravel.com/}{Laravel}} framework for scalable AWS deployment
+  \item Built iOS and Android applications to streamline data collection and analysis process for over 1000 volunteers servicing more than 500 lakes
+  \item Named as a partner in the White House Climate Data Initiative
+\end{itemize}
+\medskip
+
+% \lrc{\textbf{Onshape}}{}{Alewife, MA} \\
+% \lrc{\hspace{1ex}\textit{iOS and Android Developer}}{}{May 2015 -- April 2016}
+% \begin{itemize}
+%   \item Rebuilt iOS ``share'' workflow halving the number of steps to invite new users
+%   \item Implemented iOS document comments using websockets for real-time updates 
+%   \item Created document element management interface for Android and iOS
+% \end{itemize}
+% \medskip
 
 \lrc{\textbf{MOTU}}{}{Cambridge, MA} \\
 \lrc{\hspace{1ex}\textit{Web Developer}}{}{June 2013 -- August 2013}
 \begin{itemize}
-\item Built performance-optimized Javascript libraries to handle DOM and SVG manipulation, gesture recognition, and event handling for large-scale web applications with more than 40,000 elements
-\item Created multi-user synchronous Javascript web application pioneering the use of 2013 AVB ethernet protocol to interface with network-enabled audio production devices
+  \item Built performance-optimized Javascript libraries to handle DOM and SVG manipulation, gesture recognition, and event handling for large-scale web applications with more than 40,000 elements
+  % \item Created multi-user synchronous Javascript web application pioneering the use of 2013 AVB ethernet protocol to interface with network-enabled audio production devices
 \end{itemize}
 \medskip
 
 
 \section*{LEADERSHIP EXPERIENCE}
 
-\lrc{\textbf{The Daydreamers Partnership}}{}{New York, NY} \\
-\lrc{\hspace{1ex}\textit{Founder}}{}{May 2011 -- Present}
+\lrc{\textbf{BetaNYC}}{}{New York, NY} \\
+\lrc{\hspace{1ex}\textit{Board Member}}{}{October 2017 -- Present}
 \begin{itemize}
-\item Formed partnership with fellow members of indie rock band The Daydreamers
-\item Engineered sound for 2 studio albums using digital and analog outboard equipment on top of a Pro Tools 9 setup
-\item Co-directed and produced 2 3-minute indie music videos using Adobe Premiere Pro with over 13,000 Youtube views
+  \item Accepted into the \href{https://mozilla.github.io/leadership-training/}{\textbf{Mozilla Open Leaders program}} to develop the \textbf{\href{http://nycroadmap.us}{People's Roadmap}}, a framework for community-authored tech-policy documents
+  % \item Chaired Bylaws Committee to author first version of organization bylaws
+  \item Maintained BetaNYC's digital services, including CKAN open-data portal
 \end{itemize}
 \medskip
 
+% \lrc{\textbf{The Daydreamers Partnership}}{}{New York, NY} \\
+% \lrc{\hspace{1ex}\textit{Founder}}{}{May 2011 -- Present}
+% \begin{itemize}
+%   \item Formed partnership with fellow members of indie rock band The Daydreamers
+%   \item Engineered sound for 2 studio albums using digital and analog outboard equipment on top of a Pro Tools 9 setup
+%   \item Co-directed and produced 2 3-minute indie music videos using Adobe Premiere Pro with over 13,000 Youtube views
+% \end{itemize}
+% \medskip
+
 \lrc{\textbf{Zeta Psi Fraternity}}{}{Cambridge, MA} \\
-\lrc{\hspace{1ex}\textit{President \& New Member Advisor}}{}{September 2012 -- February 2016}
+\lrc{\hspace{1ex}\textit{President, New Member Advisor \& Alumni Board Officer}}{}{September 2012 -- February 2016}
 \begin{itemize}
-\item Advised 15 new members during 10 week mentorship program
-\item Managed \$10,000 renovation budget and directed untrained crew of 45 to complete 1,800 man-hours of structural and aesthetic building improvements
-\item Awarded MIT IFC Best New Member Program \& Zeta Psi International Headquarters McElroy Order of Excellence
+  \item Advised 15 new members during 10 week mentorship program recognized as MIT IFC Best New Member Program
+  % \item Awarded MIT IFC Best New Member Program \& Zeta Psi International Headquarters McElroy Order of Excellence
+  \item Managed \$10,000 renovation budget and directed untrained crew of 45 to complete 1,800 man-hours of structural and aesthetic building improvements
+  % \item Organized 40th Anniversary Alumni Weekend
 \end{itemize}
 
-\lrc{\textbf{Green Heron Farm}}{}{Saugerties, NY} \\
-\lrc{\hspace{1ex}\textit{Farm hand}}{}{June 2006 -- August 2008}
-\begin{itemize}
-\item Assisted in the daily care of 20 competition horses
-\item Achieved working proficiency with over 15 types of heavy machinery
-\end{itemize}
+% \lrc{\textbf{Green Heron Farm}}{}{Saugerties, NY} \\
+% \lrc{\hspace{1ex}\textit{Farm hand}}{}{June 2006 -- August 2008}
+% \begin{itemize}
+%   \item Assisted in the daily care of 20 competition horses
+%   \item Achieved working proficiency with over 15 types of heavy machinery
+% \end{itemize}
 
 \section*{SKILLS}
-\noindent\textbf{Programming (over 5000 lines):} Java, Android, Obj-C, JavaScript, HTML5, CSS3, PHP \\
-\textbf{Programming (over 1000 lines):} Python, Rails \\
-\textbf{Programming (familiar):} MySQL, C, C++, Assembly \\
+\noindent\textbf{Programming (over 5000 lines):} Python, Swift, Java, Android, Obj-C, JavaScript, HTML5, CSS3, PHP \\
+% \textbf{Programming (over 1000 lines):} Ruby on Rails \\
+\textbf{Programming (familiar):} R, MySQL, C, C++, Assembly \\
 \textbf{Multimedia:} Avid Pro Tools, Adobe Premiere Pro, Onshape, DS SolidWorks
 
 
